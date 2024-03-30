@@ -1,2 +1,2 @@
 Site de jogos, onde a diversão encontra a segurança. NÂO FAÇA APOSTAS!
-![image](https://github.com/IsaqueMarley/ZaZaBet/assets/116613395/81839049-6bca-43fb-84fc-759644398e3f)
+![image](https://github.com/IsaqueMarley/ZaZaBet/assets/116613395/551aba7c-f7c5-4057-a626-632233bea2e7)
