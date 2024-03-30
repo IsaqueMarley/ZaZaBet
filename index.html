@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- LINK CSS -->
+   <link rel="stylesheet" href="assets/css/produtos.css">
+  <!-- SCRIPTS -->
+  <script src="assets/js/produtos/produtos.js" defer></script>
+  <title>ZaZaBet</title>
+  <rel="icon" type="image/x-icon" href="/assets/img/logoZAZA.jpg/favicon.ico">
+</head>
+
+<body>
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.php" id="logo">
+        <img src="assets/img/logo.jpg" alt="LOGO ZAZA" id="logo">
+      </a>
+    </div>
+    <ul class="navbar-menu">
+    <li><a href="#">LOGIN</a></li>
+      <li><a href="#">ROLETAS</a></li>
+      <li><a href="#">EVO Plays</a></li>
+      <li id="contatos-resp"><a href="#">BGaming</a></li>
+   </ul>
+
+    <!-- BOTÃO PARA ABRIR MENU LATERAL -->
+    <button class="menu-toggle" aria-label="menu-toggle">
+      <span class="menu-icon" id="menuIcon">&#9776;</span>
+      <span class="close-icon" id="closeIcon">&#10006;</span>
+    </button>
+  </nav>
+
+  <!-- BARRA DE NAVEGAÇÃO RESPONSIVA - MENU LATERAL -->
+  <div class="sidebar" id="sidebar">
+    <div class="img-sidebar">
+      <a href="index.php">
+        <img  style="width: 80px;" src="assets/img/logo.jpg " alt="Logo zaza">
+      </a>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a href="#">LOGIN</a></li>
+      <li><a href="#">ROLETAS</a></li>
+      <li><a href="#">EVO Plays</a></li>
+      <li id="contatos-resp"><a href="#">BGaming</a></li>
+    </ul>
+  </div>
+
+  <!-- PÁGINA DE PRODUTOS -->
+  <div class="container-search">
+    <!-- BARRA DE PESQUISA -->
+    <div class="box" style="display: none;">
+      <form class="inputs" id="searchForm">
+        <input type="text" id="searchbar" name="pesquisa_text" placeholder="Roletas, tigrinho, dragão ...">
+        <input type="submit" name="pesquisa" value="Pesquise"></input>
+      </form>
+    </div>
+  </div>
+
+  <!-- CARDS DOS PRODUTOS -->
+  <section id="produtos">
+    <h2 class="titulo-produtos">INTERNOS</h2>
+
+    <div class="produtos">
+
+        <a href='jogos/evo/tiger.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/tiger.png">
+            </div>
+          </a>  
+     
+        <a href='jogos/internos/mines.html'>
+          <div class="produto">
+            <img class="pegar_imagem_produto" src="uploads/mines.png">
+          </div>
+        </a>
+        <a href='jogos/evo/dragon.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/dragon.png">
+            </div>
+          </a>  
+
+        <a href='jogos/evo/coming.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/coming.png">
+            </div>
+          </a>    
+          <a href='jogos/evo/goal.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/goal.png">
+            </div>
+          </a>  
+          <a href='jogos/evo/gost.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/gost.png">
+            </div>
+          </a>  
+      
+          <a href='jogos/evo/ox.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/ox.png">
+            </div>
+          </a>  
+          <a href='jogos/evo/beauty.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/beauty.png">
+            </div>
+          </a>    
+          <a href='jogos/evo/push.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/push.png">
+            </div>
+          </a>  
+          <a href='jogos/evo/ganesh.html'>
+            <div class="produto">
+              <img class="pegar_imagem_produto" src="uploads/ganesh.png">
+            </div>
+          </a>  
+
+    </div>
+
+    <p id="mensagem" style="display: none;">Nenhum produto relacionado encontrado.</p>
+  </section>
+
+  
+  
+  <section>
+      <!-- PROXIMOS JOGOS-->
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    
+
+    
+      <p> Desenvolvido por Zza © 2024 | Todos direitos reservados </p>
+  
+    </section>
+  </footer>
+</body>
+
+</html>

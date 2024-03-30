@@ -1,0 +1,118 @@
+	
+@media (min-width: 576px) {
+	body
+		{
+		    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+
+		text-align	: center;
+		zoom: 300%;
+	
+		}
+	h1{
+		font-size: 50px;
+	}
+	table
+		{
+			
+		margin		: auto;
+		background-color: #aaa;
+		border-collapse	: separate;
+		border-spacing	: 0px;
+		border: none;
+		}
+	td
+		{
+		
+		
+		
+		/* manha de "esconder" o texto */
+		background-color: #d31616;
+		color		: #999;
+		}
+	td.clicked
+		{
+		background-color: #ddd;
+		color		: black;
+		font-size	: 25px;
+		border		: 2px solid #ccc;
+		}
+	p
+		{
+		font-size	: small;
+		text-align	: justify;
+		}
+	#browsers
+		{
+		position	: fixed;
+		bottom		: 0;
+		left		: 0;
+		width		: 100%;
+		padding-top	: 10px;
+		padding-bottom	: 15px;
+		background-color: #ffd;
+		border-top	: 1px solid silver;
+		text-align	: center;
+		font-weight	: bold;
+		}
+	.browserok  { color	: #0c0; }
+	.browseraok { color	: #f60; }
+	.browsernok { color	: #f00; }
+	}
+
+
+
+	/*web PC*/
+	body
+		{
+			font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+
+		font-family	: sans-serif;
+		text-align	: center;
+		}
+	table
+		{
+		margin		: auto;
+		background-color: #aaa;
+		border-collapse	: separate;
+		border-spacing	: 0px;
+		}
+	td
+		{
+		width		: 44px; 
+		line-height	: 44px;
+		border		: 2px outset gray;
+		text-align	: center;
+		
+		
+		/* manha de "esconder" o texto */
+		background-color: #999;
+		color		: #999;
+		}
+	td.clicked
+		{
+		background-color: #ddd;
+		color		: black;
+		font-size	: 25px;
+		border		: 2px solid #ccc;
+		}
+	p
+		{
+		font-size	: small;
+		text-align	: justify;
+		}
+	#browsers
+		{
+		position	: fixed;
+		bottom		: 0;
+		left		: 0;
+		width		: 100%;
+		padding-top	: 10px;
+		padding-bottom	: 15px;
+		background-color: #ffd;
+		border-top	: 1px solid silver;
+		text-align	: center;
+		font-weight	: bold;
+		}
+	.browserok  { color	: #0c0; }
+	.browseraok { color	: #f60; }
+	.browsernok { color	: #f00; }
